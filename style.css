@@ -1,3 +1,7 @@
+*{
+  font-family: Roboto;
+}
+
 body{
   margin:0;
   font-family: 'Courier New', Courier, monospace;
@@ -6,10 +10,12 @@ body{
 
 .header{
   display:flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
   margin:0px;
-  border: 4px dotted red;
-  background-color:#343e52 ;
+  padding:0;
+  
+  background-color:#1F2937 ;
 }
 
 .right{
@@ -17,18 +23,18 @@ body{
 }
 
 .logo{
-  padding:0;
-  margin-left:10px;
+  padding:0; 
+  margin-left:38px;
   font-size: 24px;
   color:#F9FAF8;
 }
 
 ul{
   display:flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap:32px;
-  margin-right:10px;
+  margin-right:38px;
   padding:0;
   font-size: 18px;
   list-style-type: none;
@@ -38,3 +44,43 @@ li{
   color:#F9FAF8;
   font-style: normal;
 }
+
+.header2{
+  display:flex;
+  box-sizing: border-box;
+  justify-content:space-evenly;
+  align-items:start;
+  background-color: #1F2937;
+  height: 450px;
+  padding-top:100px;
+  
+}
+
+
+
+.miniT{
+  font-size:48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  margin:0;
+  
+}
+
+.smallt{
+  margin-top:0;
+  text-wrap:wrap;
+  width:400px;
+  color: #F9FAF8;
+}
+
+.Sign{
+  background-color:#3882F6 ;
+  padding-top: 4px;
+  padding-bottom:4px;
+  padding-right:28px;
+  padding-left:28px;
+  font-size:19px;
+  color:#F9FAF8;
+  border-radius: 7px;
+}
+
